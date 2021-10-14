@@ -1,0 +1,15 @@
+---
+manufacturer: TestManufacturer
+model: test
+slug: test
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: eth1
+    type: 1000base-t
+  - name: eth2
+    type: 1000base-t
+  - name: eth3
+    type: 1000base-t
+console-ports: []
+power-ports: []
