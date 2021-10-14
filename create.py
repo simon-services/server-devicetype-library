@@ -15,12 +15,12 @@ device = {
     "power-ports":[]
 }
 
-device['interfaces'].append({"name": "eth0","type": "1000base-t", "mgmt_only": false})
-device['interfaces'].append({"name": "eth1","type": "1000base-t" "mgmt_only": false})
-device['interfaces'].append({"name": "eth2","type": "1000base-t" "mgmt_only": false})
-device['interfaces'].append({"name": "eth3","type": "1000base-t" "mgmt_only": false})
+device['interfaces'].append({"name": "eth0","type": "1000base-t", "mgmt_only": False})
+device['interfaces'].append({"name": "eth1","type": "1000base-t", "mgmt_only": False})
+device['interfaces'].append({"name": "eth2","type": "1000base-t", "mgmt_only": False})
+device['interfaces'].append({"name": "eth3","type": "1000base-t", "mgmt_only": False})
 
-yaml_file = open(manufacturer+"/"+model+".yml", "w")
+yaml_file = open("device-types/"+manufacturer+"/"+model+".yml", "w")
 device_yaml = yaml.safe_dump(device, sort_keys=False, explicit_start=True)
 data = ruamel.yaml.round_trip_load(device_yaml)
 yaml_file.write( '---\n')
