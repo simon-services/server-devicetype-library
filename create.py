@@ -20,7 +20,7 @@ device['interfaces'].append({"name": "eth1","type": "1000base-t"})
 device['interfaces'].append({"name": "eth2","type": "1000base-t"})
 device['interfaces'].append({"name": "eth3","type": "1000base-t"})
 
-yaml_file = open(manufacturer+"/"+model+".yaml", "w")
+yaml_file = open(manufacturer+"/"+model+".yml", "w")
 device_yaml = yaml.safe_dump(device, sort_keys=False, explicit_start=True)
 data = ruamel.yaml.round_trip_load(device_yaml)
 yaml_file.write( '---\n')
