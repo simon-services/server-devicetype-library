@@ -10,6 +10,7 @@ device = {
     "manufacturer": manufacturer,
     "model": model,
     "slug": slug,
+    "u_height": 1,
     "interfaces": [],
     "console-ports": [],
     "power-ports":[]
