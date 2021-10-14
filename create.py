@@ -11,6 +11,7 @@ device = {
     "model": model,
     "slug": slug,
     "u_height": 1,
+    "is_full_depth": False,
     "interfaces": [],
     "console-ports": [],
     "power-ports":[]
