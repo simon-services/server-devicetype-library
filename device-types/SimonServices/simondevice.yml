@@ -1,7 +1,7 @@
 ---
-manufacturer: TestManufacturer
-model: test
-slug: test
+manufacturer: SimonServices
+model: simondevice
+slug: simondevice
 u_height: 1
 is_full_depth: false
 interfaces:

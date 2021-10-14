@@ -2,9 +2,9 @@ from os import write
 import yaml
 import ruamel.yaml
 
-manufacturer = "TestManufacturer"
-model = "test"
-slug = "test"
+manufacturer = "SimonServices"
+model = "simondevice"
+slug = "simondevice"
 
 device = {
     "manufacturer": manufacturer,
